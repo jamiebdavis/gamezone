@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Home from "./screens/home";
-import Navigator from "./routes/homeStack";
+import Navigator from "./routes/drawer";
 
 class App extends Component {
   render() {
