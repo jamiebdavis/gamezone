@@ -1,36 +1,36 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet} from 'react-native';
 
 export const globalStyles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding: 20
-    },
     titleText: {
         fontSize: 18,
-        color: "#333"
+        fontWeight: 'bold',
+        color: '#333',
     },
     paragraph: {
         marginVertical: 8,
-        lineHeight: 20
+        lineHeight: 20,
+    },
+    container: {
+        flex: 1,
+        padding: 20,
     },
     input: {
-        inputWidth: 1,
-        borderColor: "#ddd",
+        borderWidth: 1,
+        borderColor: '#ddd',
         padding: 10,
         fontSize: 18,
-        borderRadius: 6
+        borderRadius: 6,
+        color: 'black'
     },
     errorText: {
         color: 'crimson',
         fontWeight: 'bold',
         marginBottom: 10,
         marginTop: 6,
-        textAlign: 'center'
-    }
+        textAlign: 'center',
+    },
 });
 
 export const images = {
-    rating: {
-
-    }
+    rating: {}
 }
